@@ -1,0 +1,26 @@
+:root {
+	--primary-color: white;
+	--blue: #1ab2ff;
+	--secondary-color: #121517;
+}
+
+* {
+	padding: 0;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: roboto;
+}
+html {
+	background-color: var(--secondary-color);
+}
+.link {
+	text-decoration: none;
+	color: #1ab2ff;
+}
+
+body {
+	width: 60vw;
+	margin: auto;
+}

@@ -1,0 +1,64 @@
+.write {
+  margin-top: 12px;
+  text-transform: uppercase;
+}
+.write h1 {
+  font-weight: 300;
+  text-align: center;
+  color: var(--blue);
+}
+.write .writeInput {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 12px;
+}
+.write .writeInput label {
+  font-size: 24px;
+  margin-top: 12px;
+}
+.write .writeInput input {
+  height: 34px;
+  border-radius: 4px;
+  color: black;
+  font-weight: 500;
+  padding: 8px;
+}
+.write .writeInput textarea {
+  padding: 8px;
+  overflow: hidden;
+  line-height: 1.5;
+  color: black;
+  font-weight: 500;
+}
+.write .writeInput .subBtn {
+  color: var(--secondary-color);
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.write .writeInput .subBtn:hover {
+  border: 1px var(--blue) solid;
+  color: var(--blue);
+}
+.write .writeInput .cats {
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-file-image {
+  color: white;
+  font-size: 24px;
+}
+
+select {
+  width: 48px;
+}/*# sourceMappingURL=index.css.map */

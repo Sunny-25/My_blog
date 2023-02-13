@@ -1,0 +1,39 @@
+.posts {
+	color: var(--primary-color);
+	margin-top: 12px;
+}
+
+.title {
+	color: white;
+	font-weight: 700;
+	font-size: 34px;
+	text-transform: capitalize;
+	margin-bottom: 12px;
+	margin-top: 40px;
+}
+.date {
+	font-size: 18px;
+	color: rgb(117, 117, 117);
+	margin-bottom: 12px;
+}
+.postCat {
+	border: 1px white solid;
+	border-radius: 5px;
+	line-height: 26px;
+	padding: 6px;
+	margin-top: 5px;
+	width: auto;
+	color: white;
+	text-transform: capitalize;
+	font-size: 12px;
+	border-top: 2px white solid;
+	border-right: 2px white solid;
+	margin-bottom: 12px;
+}
+.desc {
+	color: white;
+	font-size: 16px;
+	margin-top: 12px;
+	font-weight: 300;
+	margin-bottom: 12px;
+}
